@@ -1,10 +1,5 @@
-#
-# NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
-#
-# PLEASE DO NOT EDIT IT DIRECTLY.
-#
-
 FROM openemail/alpine:latest
+LABEL maintainer="Chinthaka Deshapriya (chinthaka@cybergate.lk)"
 
 # dependencies required for running "phpize"
 # these get automatically installed and removed by "docker-php-ext-*" (unless they're already installed)
